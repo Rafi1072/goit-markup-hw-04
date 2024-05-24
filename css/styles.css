@@ -189,6 +189,23 @@ header {
   padding: 120px 0;
 }
 
+.icon {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-style {
+  width: 64px;
+  height: 64px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
