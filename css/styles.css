@@ -132,6 +132,16 @@ header {
   align-items: center;
   height: 600px;
   padding: 188px 0;
+  gap: 10px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(C:\Users\rafi1\OneDrive\Dokumenty\GitHub\goit-markup-hw-04\images\people-office.jpg);
+  top: 72px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .first-heading {
@@ -206,6 +216,15 @@ header {
   height: 64px;
 }
 
+.social-icons {
+  list-style-type: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -276,6 +295,7 @@ header {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
+  display: flex;
 }
 
 .paragraph-footer {
@@ -311,4 +331,7 @@ span {
 
 img {
   display: block;
+}
+
+.footer-social {
 }
