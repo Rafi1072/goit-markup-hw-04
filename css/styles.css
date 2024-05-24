@@ -55,6 +55,7 @@ a {
   text-decoration: none;
   padding: 24px 0;
   display: inline-block;
+  position: relative;
 }
 
 .link:hover,
@@ -81,6 +82,8 @@ header {
   justify-content: space-between;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -133,11 +136,12 @@ header {
   height: 600px;
   padding: 188px 0;
   gap: 10px;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(C:\Users\rafi1\OneDrive\Dokumenty\GitHub\goit-markup-hw-04\images\people-office.jpg);
+    url(../images/people-office.jpg);
   top: 72px;
   background-repeat: no-repeat;
   background-position: center;
@@ -172,6 +176,7 @@ header {
   height: 56px;
   margin-top: 48px;
   margin-left: 500px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-heading {
@@ -218,11 +223,15 @@ header {
 
 .social-icons {
   list-style-type: none;
-  width: 40px;
-  height: 40px;
   display: flex;
   justify-content: center;
   align-content: center;
+  gap: 24px;
+}
+
+.icon-list {
+  width: 40px;
+  height: 40px;
 }
 
 .visually-hidden {
