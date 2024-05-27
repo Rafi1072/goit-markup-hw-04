@@ -413,11 +413,12 @@ img {
 }
 
 .footer-article {
-  display: flex;
-  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-beginning {
+  display: flex;
+  align-items: baseline;
 }
 
 .social-paragraph {
